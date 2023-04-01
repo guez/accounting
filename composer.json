@@ -2,6 +2,8 @@
     "name": "guez/accounting",
     "description": "accounting",
     "type": "library",
+    "keywords": ["accounting","guez"],
+    "homepage": "https://github.com/guez/accounting",
     "license": "MIT",
     "autoload": {
         "psr-4": {
