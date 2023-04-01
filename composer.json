@@ -1,0 +1,21 @@
+{
+    "name": "guez/accounting",
+    "description": "accounting",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guez\\Accounting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge",
+            "email": "guez_95ii@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^8.0"
+    }
+}
