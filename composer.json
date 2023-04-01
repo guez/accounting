@@ -2,7 +2,10 @@
     "name": "guez/accounting",
     "description": "accounting",
     "type": "library",
-    "keywords": ["accounting","guez"],
+    "keywords": [
+        "accounting",
+        "guez"
+    ],
     "homepage": "https://github.com/guez/accounting",
     "license": "MIT",
     "autoload": {
@@ -12,12 +15,22 @@
     },
     "authors": [
         {
-            "name": "Jorge",
+            "name": "Jorge Samaniego",
             "email": "guez_95ii@hotmail.com"
         }
     ],
     "require": {
         "php": ">=7.4",
         "laravel/framework": "^8.0"
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guez\\Accounting\\AccountingServiceProvider"
+            ],
+            "aliases": {
+                "Accounting": "Guez\\Accounting"
+            }
+        }
+    },
 }
