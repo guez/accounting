@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAccountingAccountingEntryDetailsTable extends Migration
+class CreateAccountingEntryDetailsTable extends Migration
 {
     public function up()
     {
