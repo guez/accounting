@@ -15,8 +15,8 @@ class CreateAccountingEntryDetailsTable extends Migration
             $table->unsignedBigInteger('entryId');
             $table->unsignedBigInteger('accountId');
 
-            $table->double("debit", 5, 2)->default(0);
-            $table->double("credit", 5, 2)->default(0);
+            $table->double("debit", 10, 2)->default(0);
+            $table->double("credit", 10, 2)->default(0);
 
             $table->foreign('merchantId')->references('id')->on('enterprises')->onDelete('cascade');
             $table->foreign('entryId')->references('id')->on('accounting_entries')->onDelete('cascade');
